@@ -1,10 +1,14 @@
+import Topbar from "../../components/topbar/Topbar";
 
 import "./home.css"
 
 export default function Home() {
   return (
     <>
-    Welcome to the chat home page.
+      <Topbar />
+      <div className="homeContainer">
+ Hi. Welcome to the home page.
+      </div>
     </>
   );
 }
